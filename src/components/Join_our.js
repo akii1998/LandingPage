@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   buttonBackgroundColor,
   buttonTextColor,
-} from "../../pages/DymaicCss";
+} from "../components/data/DymaicCss";
 
 const Join = ({ JoinCommunitySection }) => {
   const [hover, setHover] = useState(false);

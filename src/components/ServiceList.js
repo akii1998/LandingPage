@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { buttonBackgroundColor, buttonTextColor } from "../../pages/DymaicCss";
+import { buttonBackgroundColor, buttonTextColor } from "../components/data/DymaicCss";
 
 const ServiceList = ({ serviceData }) => {
   const buttonCategory = [

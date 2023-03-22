@@ -25,7 +25,7 @@ import {
   partnerLogoData,
   VideoSectionData,
   JoinCommunitySection
-} from "./Samplejson2";
+} from "../src/components/data/Samplejson2";
 // for Data Store
 
 const Testimonials = dynamic(() => import("../src/components/Testimonials"), {

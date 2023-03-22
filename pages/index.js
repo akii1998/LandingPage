@@ -28,8 +28,8 @@ import {
   counterDataBanner,
   VideoSectionData,
   headerLogo, JoinCommunitySection ,
-} from "./DataManager";
-import { fontFamliyUniversal } from "./DymaicCss";
+} from "../src/components/data/DataManager";
+
 
 // for Data Store
 
@@ -38,7 +38,7 @@ const Testimonials = dynamic(() => import("../src/components/Testimonials"), {
 });
 const Index = () => {
   return (
-    <Layout style={{fontFamily:fontFamliyUniversal.TPYE1}}>
+    <Layout>
       {/* for external Library like font icon , google font family */}
       <Head> 
         <title>Portfolio | Home</title>

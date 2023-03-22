@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { buttonBackgroundColor, buttonTextColor, textColor } from "../../pages/DymaicCss";
+import { buttonBackgroundColor, buttonTextColor, textColor } from "../components/data/DymaicCss";
 import { scrollSection, stickyNav } from "../utilits";
 
 const Header = ({ headerLogo }) => {

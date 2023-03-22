@@ -10,7 +10,6 @@
 //   ],
 // };
 
-import Image from "next/image";
 
 const Partners = ({ partnerLogoData }) => {
   return (

@@ -32,7 +32,11 @@ export const buttonBackgroundColor={
 }
 
 
+const akash={
+    name:'Hello',
+}
 
+export default akash;
 
 export const cardButtonbackground={
 normal:{

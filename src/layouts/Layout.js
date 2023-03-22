@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Fragment, useEffect } from "react";
-import { fontFamliyUniversal, textColor } from "../../pages/DymaicCss";
+import { fontFamliyUniversal, textColor } from "../components/data/DymaicCss";
 import ImageView from "../components/popup/ImageView";
 import VideoPopup from "../components/popup/VideoPopup";
 import Preloader from "../layouts/Preloader";

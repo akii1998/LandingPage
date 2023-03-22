@@ -25,7 +25,7 @@ import {
   partnerLogoData,
   VideoSectionData,
   JoinCommunitySection
-} from "./Samplejson1";
+} from "../src/components/data/Samplejson2";
 
 
 // for Data Store

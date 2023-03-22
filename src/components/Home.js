@@ -1,12 +1,10 @@
 
-
-import Image from "next/image";
 import { useState } from "react";
 import {
   buttonBackgroundColor,
   buttonTextColor,
   textColor,
-} from "../../pages/DymaicCss";
+} from "../components/data/DymaicCss";
 
 const Home = ({ homeData }) => {
   const [hover, setHover] = useState(false);

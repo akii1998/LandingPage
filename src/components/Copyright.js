@@ -1,4 +1,4 @@
-import {  backgroundColorMediaSubcriberandFooter, buttonTextColor, textColor } from "../../pages/DymaicCss";
+import {  backgroundColorMediaSubcriberandFooter, buttonTextColor, textColor } from '../components/data/DymaicCss';
 
 const copyRightData=[
   

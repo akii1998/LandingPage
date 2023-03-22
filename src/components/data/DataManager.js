@@ -21,7 +21,6 @@ const homeData = {
 };
 
 //  About section image :800px * 652px 
-
 const aboutData = {
   img:'/img/about/1.jpg',
   designation: " About us",
@@ -108,33 +107,6 @@ const serviceData = {
       image: "/img/service/3.jpg",
       payUrl:'https://stackoverflow.com/'
     },
-    {
-      id: 7,
-      title: "Solid Gold Petite Micropave ",
-      description:
-        "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      category: "medium",
-      image: "/img/service/3.jpg",
-      payUrl:'https://stackoverflow.com/'
-    },
-    {
-      id: 8,
-      title: "Solid Gold Petite Micropave ",
-      description:
-        "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      category: "medium",
-      image: "/img/service/3.jpg",
-      payUrl:'https://stackoverflow.com/'
-    },
-    {
-      id: 9,
-      title: "Solid Gold Petite Micropave ",
-      description:
-        "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      category: "medium",
-      image: "/img/service/3.jpg",
-      payUrl:'https://stackoverflow.com/'
-    },
   ],
 };
 
@@ -176,26 +148,6 @@ const courseData = {
         "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
       ],
     },
-    {
-      name: "Mobile Application",
-      img: "/img/service/3.jpg",
-      payUrl:'https://stackoverflow.com/',
-      description: [
-        "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-        "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-      ],
-    },
-    {
-      name: "Mobile Application",
-      img: "/img/service/3.jpg",
-      payUrl:'https://stackoverflow.com/',
-      description: [
-        "Devman is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-        "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-        "That’s why more companies are not only reevaluating their website’s design but also partnering with Devman, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
-      ],
-    },
   ],
 };
 
@@ -206,22 +158,6 @@ const testimonailData = {
   descripation:
     " Dliquip ex ea commo do conse namber onequa ute irure dolor inreprehen derit in voluptate",
   testiCard: [
-    {
-      icon: "/img/svg/quote.svg",
-      descripation:
-        "Duis aute irure dolor in repre hen derit in voluptate velitesse cillum dolore eu fugiat nulla pariatur.",
-      img: "/img/testimonials/1.jpg",
-      name: "Selena Brook",
-      designation: "ABC Studio",
-    },
-    {
-      icon: "/img/svg/quote.svg",
-      descripation:
-        "Duis aute irure dolor in repre hen derit in voluptate velitesse cillum dolore eu fugiat nulla pariatur.",
-      img: "/img/testimonials/1.jpg",
-      name: "Selena Brook",
-      designation: "ABC Studio",
-    },
     {
       icon: "/img/svg/quote.svg",
       descripation:
@@ -288,7 +224,12 @@ const JoinCommunitySection = {
     joinUrl: "https://stackoverflow.com/",
   }
 
-export {
+const akash={
+  Name:'Hello',
+}
+ 
+export default akash;
+export  {
   headerLogo,
   homeData,
   aboutData,

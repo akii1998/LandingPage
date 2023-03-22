@@ -21,6 +21,7 @@ const homeData = {
 };
 
 //  About section image :800px * 652px 
+
 const aboutData = {
   img:'/img/about/1.jpg',
   designation: " About us",
@@ -223,6 +224,11 @@ const JoinCommunitySection = {
       "Dliquip ex ea commo do conse namber onequa ute irure dolor in reprehen derit in voluptate",
     joinUrl: "https://stackoverflow.com/",
   }
+  const akash={
+    Name:'Hello',
+  }
+   
+  export default akash;
 
 export {
   headerLogo,

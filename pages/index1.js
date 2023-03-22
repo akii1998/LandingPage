@@ -25,7 +25,7 @@ import {
   VideoSectionData,
   headerLogo,
   JoinCommunitySection
-} from "./DataManager";
+} from "../src/components/data/DataManager";
 
 // for Data Store
 

@@ -5,7 +5,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { buttonBackgroundColor, buttonTextColor } from "../../pages/DymaicCss";
+import { buttonBackgroundColor, buttonTextColor } from "../components/data/DymaicCss";
 
 //   courseDataCardDetails:[
 //     {

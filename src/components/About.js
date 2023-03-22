@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { backgroundColorMediaSubcriberandFooter } from "../../pages/DymaicCss";
+import { backgroundColorMediaSubcriberandFooter } from "../components/data/DymaicCss";
 
 // const aboutData = {
 //   img:'/img/about/1.jpg',
