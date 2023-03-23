@@ -1,18 +1,18 @@
 import dynamic from "next/dynamic";
-import About from "../src/components/About";
-import Copyright from "../src/components/Copyright";
-import CounterSection from "../src/components/CounterSection";
-import Home from "../src/components/Home";
-import Partners from "../src/components/Partners";
+// import About from "../src/components/About";
+// import Copyright from "../src/components/Copyright";
+// import CounterSection from "../src/components/CounterSection";
+// import Home from "../src/components/Home";
+// import Partners from "../src/components/Partners";
 import Head from "next/head";
-import Header from "../src/layouts/Header";
-import Layout from "../src/layouts/Layout";
-import MobileHeader from "../src/layouts/MobileHeader";
-import ScrollTop from "../src/layouts/ScrollTop";
-import Join from "../src/components/Join_our";
-import Courses from "../src/components/Courses";
-import MediaSection from "../src/components/MediaSection";
-import ServiceList from "../src/components/ServiceList";
+// import Header from "../src/layouts/Header";
+// import Layout from "../src/layouts/Layout";
+// import MobileHeader from "../src/layouts/MobileHeader";
+// import ScrollTop from "../src/layouts/ScrollTop";
+// import Join from "../src/components/Join_our";
+// import Courses from "../src/components/Courses";
+// import MediaSection from "../src/components/MediaSection";
+// import ServiceList from "../src/components/ServiceList";
 
 import {
   homeData,
@@ -24,7 +24,7 @@ import {
   counterDataBanner,
   VideoSectionData,
   headerLogo,
-  JoinCommunitySection
+  JoinCommunitySection,
 } from "../src/components/data/DataManager";
 
 // for Data Store
@@ -32,15 +32,67 @@ import {
 const Testimonials = dynamic(() => import("../src/components/Testimonials"), {
   ssr: false,
 });
+const Layout = dynamic(() => import("../src/layouts/Layout"), {
+  ssr: false,
+});
+const MobileHeader = dynamic(() => import("../src/layouts/MobileHeader"), {
+  ssr: false,
+});
+const Header = dynamic(() => import("../src/layouts/Header"), {
+  ssr: false,
+});
+
+const Home = dynamic(() => import("../src/components/Home"), {
+  ssr: false,
+});
+
+const About = dynamic(() => import("../src/components/About"), {
+  ssr: false,
+});
+
+const CounterSection = dynamic(
+  () => import("../src/components/CounterSection"),
+  {
+    ssr: false,
+  }
+);
+
+const ServiceList = dynamic(() => import("../src/components/ServiceList"), {
+  ssr: false,
+});
+
+const Courses = dynamic(() => import("../src/components/Courses"), {
+  ssr: false,
+});
+
+const Partners = dynamic(() => import("../src/components/Partners"), {
+  ssr: false,
+});
+
+const MediaSection = dynamic(() => import("../src/components/MediaSection"), {
+  ssr: false,
+});
+
+const Join = dynamic(() => import("../src/components/Join_our"), {
+  ssr: false,
+});
+
+const Copyright = dynamic(() => import("../src/components/Copyright"), {
+  ssr: false,
+});
+const ScrollTop = dynamic(() => import("../src/layouts/ScrollTop"), {
+  ssr: false,
+});
+
 const Index = () => {
   return (
-    <Layout >
+    <Layout>
       {/* for external Library like font icon , google font family */}
-      <Head> 
+      <Head>
         <title>Portfolio | Home</title>
       </Head>
       {/* at mobile view Header */}
-      <MobileHeader  headerLogo={headerLogo}/>
+      <MobileHeader headerLogo={headerLogo} />
 
       {/* Destop Header  */}
       <Header headerLogo={headerLogo} />
@@ -74,7 +126,7 @@ const Index = () => {
       <MediaSection VideoSectionData={VideoSectionData} />
 
       {/* Join Our Community  */}
-      <Join JoinCommunitySection={JoinCommunitySection}/>
+      <Join JoinCommunitySection={JoinCommunitySection} />
 
       {/* Footer  */}
       <Copyright />
